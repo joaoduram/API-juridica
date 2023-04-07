@@ -37,43 +37,38 @@ CREATE TABLE articles (
 Um mode pratico de popular o banco de dados é utilizar o postman com a rota http://localhost:3000/articles 
 [
     {
-        "id": 5,
         "author": "João Silva",
         "title": "A Responsabilidade Civil por Danos Ambientais",
         "content": "A responsabilidade civil por danos ambientais é uma importante ...",
-        "date": "2022-10-15T17:30:00.000Z",
+        "date": "2022-10-15 17:30:00",
         "category": "Civil"
     },
     {
-        "id": 3,
         "author": "Maria Oliveira",
         "title": "STJ decide que plano de saúde",
         "content": "O Superior Tribunal de Justiça (STJ) decidiu que os planos de saúde ...",
-        "date": "2021-08-10T17:30:00.000Z",
+        "date": "2021-08-10 17:30:00",
         "category": "Saúde"
     },
     {
-        "id": 4,
         "author": "Pedro Souza",
         "title": "Supremo Tribunal Federal define que ICMS ...",
         "content": "O Supremo Tribunal Federal (STF) decidiu ...",
-        "date": "2017-03-15T11:00:00.000Z",
+        "date": "2017-03-15 11:00:00",
         "category": "Direito Tributário"
     },
     {
-        "id": 2,
         "author": "João Silva",
         "title": "Novo Código Florestal entra em vigor",
         "content": "O novo Código Florestal ...",
-        "date": "2013-05-28T13:00:00.000Z",
+        "date": "2013-05-28 13:00:00",
         "category": "Meio Ambiente"
     },
     {
-        "id": 1,
         "author": "Fernando Henrique Cardoso",
         "title": "Código Civil",
         "content": "Lei de Introdução ...",
-        "date": "2002-01-10T19:00:00.000Z",
+        "date": "2002-01-10 19:00:00",
         "category": "Civil"
     }
 ]
