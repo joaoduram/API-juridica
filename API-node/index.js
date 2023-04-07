@@ -31,7 +31,7 @@ connection.connect((err) => {
 });
 
 //Rota POST /: utilizada para adicionar um novo artigo no banco de dados. Os dados do artigo são enviados no corpo da requisição em formato JSON, com os campos title, author, content, date e category
-app.post(' ', (req, res) => {
+app.post('/articles', (req, res) => {
   const { title, author, content, date, category } = req.body;
   connection.query('INSERT INTO articles (title, author, content, date, category) VALUES (?, ?, ?, ?, ?)', [title, author, content,date,category], (err, result) => {
     if (err) {
